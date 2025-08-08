@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="randomQuote.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>Random Quote</title>
+    </head>
+
+    <body>
+        <div id="container" >
+        <div id="quote-box" >
+            <div id="quote-text" >
+                <i class="fa fa-quote-left" id="left-quote"></i>
+                <span id="text"></span>
+            </div>
+            
+           
+            <h5 id="author" ></h5>
+            <div id="new-quote">
+                <div id="icon-group">
+                    <a id="tweet-quote" target="_blank">
+                        <i class="fab fa-twitter" id="quote-tweet" onclick=""></i>
+                    </a>
+
+                    <a id="tumblr-quote" target="_blank">
+                        <i class="fab fa-tumblr" id="quote-tumblr"></i>
+                    </a>
+
+                </div>
+                
+                
+                <button id="new-quote-button" onClick="changeQuote()" >New Quote</button>
+            </div>
+            
+        </div>
+    </div>
+        <script src="randomQuote.js">
+        </script>
+    </body>
+</html>
